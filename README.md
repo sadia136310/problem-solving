@@ -17,9 +17,9 @@
 JavaScript এ variable declare করার জন্য var কীওয়ার্ড এর মতোই let নামে আরেকটি keyword আছে , যার কাজ হচ্ছে variable টিকে function scope বা global scope এর পরিবর্তে block scope { }হিসেবে ব্যবহার করা যায়। অর্থাৎ আপনি চাইলে একই কোড পেজে অথবা একই ফাঙ্কশনের মধ্যে block দিয়ে একাধিক variable declare করতে পারেন। আর let কীওয়ার্ড টি ECMAScript 2015 অর্থাৎ ES6 থেকে JavaScript এ অন্তর্ভুক্ত হয়।
 - Variable Declare
 ```sh
-var name = 'Ab Naeem';
-var _name = 'Ab Naeem';
-var fullName = 'Ab Naeem';
+var name = 'sadia islam';
+var _name = 'sadia islam';
+var fullName = 'sadia islam';
 ```
 
 ### জাভাস্ক্রিপ্ট ভ্যারিয়েবল লেখার জন্য যা যা ব্যবহার করতে পারবেন এবং পারবেন না।
@@ -43,12 +43,12 @@ var fullName = 'Ab Naeem';
 ভ্যারিয়েবল এর ম্যান চেঞ্জ করতে হলে আপনাকে প্রথমে একটি ভ্যারিয়েবল ডিক্লেয়ার করতে হবে যেমন:
 - Variable Value
 ```sh
-var name = "Ab Naeem";
+var name = "sadia islam";
 ```
 এখন আপনি চাচ্ছেন আপনি আপনার ভ্যারিয়েবল এর নাম ঠিক রেখে ভ্যালু চেঞ্জ করতে তাহলে প্রথমে আপনাকে শুধু ভ্যারিয়েবল নাম লিখে ভ্যালু দিয়ে দিলে এই হবে। কিভাবে করবেন তা নিচে দেখানো হয়েছে।
 - Update Variable Value
 ```sh
-name = "Naeem";
+name = "sadia";
 ```
 
 ## 6. জাভাস্ক্রিপ্ট কি কি ধরনের ভেরিয়েবল হয়, সেগুলা কি কি?
@@ -56,13 +56,13 @@ name = "Naeem";
 - Type of Variable
 ```sh
 Number = 100, 200,[int = 10, 12,][float= 10.2, 30.5];
-string = "Ab Naeem";
+string = "sadia islam";
 char = 'a', 'b';
 boleean = true/false;
 ```
 এখন আপনি একটি ভেরিয়েবল ডিক্লেয়ার করেছেন আপনি চাচ্ছেন আপনি যেই ভেরিয়েবল ডিক্লেয়ার করেছেন তার টাইপ জানতে যে এইটা কি টাইপ এর ভেরিয়েবল এইটা কিভাবে বের করবেন তা নিচে দেওয়া আছে।
 - Find out type of a variable
-```sh
+```
 var x = 12345;
 console.log(typeof x);
 ```
@@ -79,7 +79,7 @@ console.log(typeof x);
 - null
 - Undefined
 - Example
-```sh
+```
 var name = "Ab Naeem";
 var number = 121;
 var x = true;
@@ -98,7 +98,7 @@ var z = new Array("Hi!");
 
 ## 8. The Naming Convention of জাভাস্ক্রিপ্ট ভ্যারিয়বেল?
 - Example
-```sh
+```
 var firstName = "Camel Case Variable";
 var FirstName = "Pascal Case Variable";
 var first_name = "Snake Case Variable";
@@ -112,7 +112,7 @@ var first-name = "Kebab Case Variable";
 - Multiplication (*)
 - Division (/)
 - Modulus/Remainder (%)
-```sh
+```
 var x = 20;var y = 30; console.log(x + y);
 var x = 20;var y = 30; console.log(x - y);
 var x = 20;var y = 30; console.log(x * y);
@@ -126,7 +126,7 @@ var x = 20;var y = 5; console.log(x % y);
 - *=  Multiplies then assigns
 - /=  Divides then assigns
 - %=  Modulus then assigns
-```sh
+```
 var x = 20;x += 5; console.log(x);
 var x = 20;x -= 5; console.log(x);
 var x = 20;x *= 5; console.log(x);
@@ -147,7 +147,7 @@ var x = 10;x--;console.log(x);
 - <span style="background-color: black; padding: 5px 10px;">**parseFloat**</span> হচ্ছে দশমিক সংখ্যা যেমন (10.5, 5.5, 2.5)
 -  <span style="background-color: black; padding: 5px 10px;">**toFixed**</span> হচ্ছে আপনি অপারেশন একটি করলেন এবং আপনার আউটপুট এ অনেক গুলো দশমিক সহ রেজাল্ট দিচ্ছে এখন আপনি চাচ্ছেন দশমিক এর পর ২ বা ৩ টা ডিজিট আউটপুট দেখাবেন তার জন্য আপনি  toFixed ব্যবহার করতে হবে।
 - Example
-```sh
+```
 var number = "10";
 var n = parseInt(number);
 console.log(n);
@@ -165,33 +165,33 @@ console.log(n);
 জাভাস্ক্রিপ্টে ভেরিয়েবল দেখে এসেছেন নিশ্চয়। একটা ভেরিয়েবলে একটাই মান রাখা যায় এরপর যদি সেই ভেরিয়েবলে অন্য মান assign করেন সাথে সাথে ভেরিয়েবলটির মান পরিবর্তন হয়ে যায়। তবে অ্যারে দিয়ে একটা ভেরিয়েবলে অনেক মান একসাথে রাখতে পারেন। যেকোন মান রাখতে পারেন।
 
 ### কিভাবে Array ডিক্লেয়ার করতে হয়।
-```sh
+```
 var tutorial = ['HTML', 'CSS', 'JavaScript', 'PHP'];
 ```
 tutorial ভেরিয়েবলে সব মানগুলি রাখা হয়েছে, একসাথে ৪টি। এখন যদি এই মানগুলি access করতে চাই তাহলে index নাম্বার দিয়ে access করতে হবে। জাভাস্ক্রিপ্ট অটোমেটিক প্রতিটি মানের জন্য একটা index নাম্বার দিয়ে রাখে (ক্রমানুসারে)। যেমন আমি যদি প্রথম মানটি দেখতে চাই তবে <span style="background-color: black; padding: 5px 10px;">**tutorial[0]**</span> এভাবে দিতে হবে যেমন:
-```sh
+```
 console.log(tutorial[0]);
 ```
 ### Array এর মধ্যে কয়টা উপাদান (element) আছে সেটা কিভাবে বের করে।
- ```sh
+ ```
 console.log(tutorial.length);
 ```
 আপনি চাচ্ছেন আপনার array এর মধ্যে একটি ভ্যালু চেঞ্জ করতে তাহলে কিভাবে করবেন তা নিছে দেওয়া হল।
- ```sh
+ ```
 tutorial[4] = "Bootstrap";
 ```
 কোন একটা উপাদানের index এর মান **-1** বলতে কি বুঝায় - undefined
 
 একটা Array এর মধ্যে কোন একটা উপাদান এর মান তোমাকে দেয়া আছে এখন সেটার index তুমি কিভাবে খুঁজে বের করতে পারো  তা নিচে দেওয়া আছে।
-```sh
+```
 tutorial = tutorial.indexOf("PHP");
 ```
 কোন একটা Array এর মধ্যে লাস্ট উপাদান হিসেবে কোন উপাদান যোগ করতে চাইলে কিভাৱে যোগ করবে।
-```sh
+```
 tutorial.push("Tailwind");
 ```
 আবার Array থেকে শেষের উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে।
-```sh
+``
 tutorial.pop();
 ```
 কোন একটা Array এর মধ্যে প্রথম উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে।
@@ -199,7 +199,7 @@ tutorial.pop();
 tutorial.unshift("Hello!");
 ```
 আবার Array থেকে প্রথম উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে।
-```sh
+``
 tutorial.shift();
 ```
 ## 14. JavaScript Comparison & Logical Operators?
@@ -218,7 +218,7 @@ tutorial.shift();
 - ! logical not
 
 ### 15. তোমার কাছে ৮০০০০ হাজার টাকার বেশি হলে তুমি Mackbook কিনবে, ৬০ হাজার টাকার বেশি হলে Gaming ল্যাপটপ কিনবে, ৪০ হাজার টাকার বেশি হলে Lenovo Yoga কম্পিউটার কিনবে , ২০ হাজার টাকার বেশি হলে পুরান ল্যাপটপ কিনবে। না হয় তুমি মোবাইল দিয়ে কাজ চালাবে।
-```sh
+```
 var money = 30000;
 if (money > 800000){
     console.log("I will by a Mackbook");
@@ -234,7 +234,7 @@ if (money > 800000){
 ```
 
 ## 16. আসকে আমার মন ভালো নেই এই কথা ৩৯ বার আউটপুট হিসেবে দেখাও।
-```sh
+```
 for(i = 1; i <= 39; i++){
     console.log(i + ". Ajke amr mon valo nei");
 }
@@ -244,14 +244,14 @@ for(i = 1; i <= 39; i++){
 - উদাহরণ স্বরূপ বলা যায়, একজন শিক্ষক আপনাকে একটি অংক করতে দিল। আপনি যত বার অংকটি ভুল করছেন, ততবার শিক্ষক আপনাকে অংক টি করতে বলছে, অর্থাৎ কেবল মাত্র অংকটি করতে পারলেই আপনি এই কাজ থেকে মুক্তি পাবেন। জাভাস্ক্রিপ্ট এর while লুপ টি পুরোপুরি এই রকম।
 
 নিচে জাভাস্ক্রিপ্ট এর while লুপ এর সাধারণ সিনট্যাক্স টি দেখুন।
-```sh
+```
 while (condition){  
     code to be executed  
 }  
 ```
 ### While লুপ এর মধ্যে লুপ ভেরিয়েবল চেইঞ্জ না করলে কি সমস্যা হয়। 
 - উল্লেখ্য যে, যদি কখনও ভুল করে ভেরিয়েবল মান বৃদ্ধি না করা হয় তবে লুপটি কখনই শেষ হবে না এবং প্রোগ্রামটি ক্রাশ করবে ।
-```sh
+```
 while (i < 10){
     console.log(1);
 }
@@ -261,7 +261,7 @@ while (i < 10){
 - অন্যান্য সকল প্রোগ্রামিং ভাষার মতই জাভাস্ক্রিপ্ট এর for লুপ কাজ করে। কোন প্রোগ্রামে এক বা একাধিক স্টেটমেন্ট একটা নির্দিষ্ট সংখ্যক বার পর্যন্ত কাজ করতে জাভাস্ক্রিপ্ট এর for লুপ ব্যবহার করা হয়। অর্থাৎ যে সকল ক্ষেত্রে আমরা পূর্ব বা আগে থেকেই জানি যে জাভাস্ক্রিপ্ট কোড গুলো ঠিক কত বার পুনরাবৃত্তি করবে অর্থাৎ execute বা run করবে, সে সকল ক্ষেত্রে জাভাস্ক্রিপ্ট এর for লুপ ব্যবহার করা হয়।
 
 নিচে জাভাস্ক্রিপ্ট এর for লুপ এর সাধারণ সিনট্যাক্সটি দেখুন।
-```sh
+```
 for (initialization; test condition; iteration statement){
     Statements to be executed if test condition is true
 }
@@ -272,14 +272,14 @@ for (initialization; test condition; iteration statement){
 - <span style="background-color: black; padding: 5px 10px;">**iteration statement**</span> counter অর্থাৎ ভেরিয়েবলের মান কোন শর্ত বা condition অনুযায়ী হ্রাস বা decrease হবে অথবা বৃদ্ধি বা increase হবে, তা জাভাস্ক্রিপ্ট for লুপের এই অংশে নির্ধারণ করা হয়।
 
 ## 20. একটা কোড লিখে ৫৮ থেকে ৯৮ পর্যন্ত যত সংখ্যা আছে সেগুলাকে দেখাও?
-```sh
+```
 for(i = 58; i <= 98; i++){
     console.log(i);
 }
 ```
 
 ## 21. একটা কোড লিখে ৪১২ থেকে ৪৫৬ পর্যন্ত যত জোর সংখ্যা আছে সেগুলাকে দেখাও?
-```sh
+
 for(i = 412; i <= 456; i+=2){
     console.log(i);
 }
@@ -297,7 +297,8 @@ for(i = 581; i <= 623; i+=2){
 - For loops have a fixed number of loops which are determined by the user.
 
 ### 24. তুমি এতদিন যা যা জিনিস শিখছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা for লুপ দিয়ে সেই array এর সব উপাদান কে আউটপুট হিসেবে দেখাও।
-```sh
+
+
 var topics = ["HTMl","CSS","GitHub","Bootstrap","Tailwind CSS","Learning Javascript"];
 for (i = 0; i < topics.length; i++) {
     console.log(topics[i]);
@@ -305,7 +306,7 @@ for (i = 0; i < topics.length; i++) {
 ```
 
 ### 25. তুমি এতদিন পর্যন্ত যে যে মডেলের মোবাইল ফোন ইউজ করেছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা while লুপ দিয়ে সেই array এর উপাদান গুলা একটা একটা করে আউটপুট হিসেবে দেখাও।
-```sh
+
 var mobileUse = ["Nokia","Samsung","Oppo"];
 var i = 0;
 while(i < mobileUse.length){
@@ -315,7 +316,7 @@ while(i < mobileUse.length){
 ```
 
 ### 26. একটা ফর লুপ চালাও। ৩০ থেকে ৮৬ পর্যন্ত। আর এই লুপ ৪৪ এ গেলে ব্রেক করবে। সেই জিনিস কোড করে দেখাও।
-```sh
+
 for(i = 30; i <= 86; i++){
     console.log(i);
     if( i > 44){
@@ -325,7 +326,7 @@ for(i = 30; i <= 86; i++){
 ```
 
 ### 27. তোমার যত বই আছে সেগুলার দাম নিয়ে একটা array লিখে ফেলো। যে বই গুলোর দাম ২০০ টাকার উপরে সেগুলাকে স্কিপ করবে। অর্থাৎ সেগুলাকে আউটপুট হিসেবে দেখাবে না। বাকিদের কে আউটপুট হিসেবে দেখাবে। দেখো করতে পারো কিনা।
-```sh
+
 var bookPrice = [120, 200, 300, 420, 150, 180, 79];
 for(var i = 0; i < bookPrice.length; i++){
     var priceList = bookPrice[i];
